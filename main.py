@@ -12,12 +12,19 @@ import sys
 
 class Main:
     def __init__(self):
-        samplerate = 44100
+        samplerate = 48000
 
-        bins = 30
         fft_width = 8192
+
+        # full
+        bins = 30
         min_f = 50
-        max_f = 12000
+        max_f = 14000
+
+        # A3 - A6 midi tones
+        # bins = 49
+        # min_f = 213.6
+        # max_f = 3625.6
 
         audio_buffer_size = 10240
         audio_chunk_size = 512
