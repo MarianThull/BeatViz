@@ -2,8 +2,7 @@
 __author__ = 'Dev'
 
 import numpy as np
-import time
-from LoopedThread import LoopedThread
+from logic.LoopedThread import LoopedThread
 
 
 class SpectrumAnalyzer(LoopedThread):

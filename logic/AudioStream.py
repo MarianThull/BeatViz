@@ -5,7 +5,7 @@ __author__ = 'Dev'
 import numpy as np
 import pyaudio
 import sys
-from LoopedThread import LoopedThread
+from logic.LoopedThread import LoopedThread
 
 
 class RingBuffer:

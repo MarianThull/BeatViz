@@ -1,7 +1,7 @@
 # coding=utf-8
 __author__ = 'Dev'
 
-from LoopedThread import LoopedThread
+from logic.LoopedThread import LoopedThread
 
 import numpy as np
 
